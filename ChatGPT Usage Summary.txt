@@ -1,0 +1,51 @@
+ChatGPT Usage Summary 
+
+While working on Task 1 (Price Gap Pair Finder), I used ChatGPT mainly as a learning and problem-solving partner.  
+I wanted to understand the logic behind the algorithm instead of just writing code that works.  
+The conversation helped me reason through different approaches and refine my final implementation.
+
+
+
+Prompt 1:
+"Help me solve this" (after uploading the task document)
+
+Response:
+ChatGPT walked me through the problem and helped me think about how to efficiently find two indices (i, j) such that abs(nums[i] - nums[j]) == k.  
+It explained how using a hash map can reduce the time complexity to O(n), and how to make sure the result remains the lexicographically smallest pair.
+
+
+
+Prompt 2:
+"How can I make sure my code handles duplicates and negative numbers correctly?"
+
+Response:
+ChatGPT explained how to store only the first occurrence of each number to handle duplicates correctly and how to make sure negative values work seamlessly with absolute differences.  
+This helped me make the code more reliable and general.
+
+
+
+Prompt 3:
+"How do I make the code more readable without overcomplicating it?"
+
+Response:
+ChatGPT suggested using type hints, clean variable names, and minimal nested conditions.  
+That feedback helped me balance simplicity and clarity in the final version.
+
+
+
+Prompt 4:
+"What are the edge cases I should test before submitting?"
+
+Response:
+ChatGPT recommended testing with zeros, duplicate values, all identical numbers, and cases where no valid pair exists.  
+I used those cases to verify that my program gives the correct output in every situation.
+
+
+
+Prompt 5:
+"Can you explain why a hash map is better here than sorting and searching?"
+
+Response:
+ChatGPT compared both methods and explained that hashing gives constant-time lookups, making it faster and more scalable for large input lists.  
+That discussion helped me understand not just how the algorithm works but why it’s efficient.
+
